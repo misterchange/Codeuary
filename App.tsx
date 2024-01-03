@@ -2,13 +2,17 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-
-  console.log('Hey Dude Your doing great');
-
   return (
     <View style={styles.container}>
-      <Text>UCI(The Unified Charging Interface)</Text>
-      <StatusBar style="auto" />
+
+      <View style={styles.box}>
+        <Text style={styles.text}>1</Text>
+      </View>
+
+      <View style={styles.box}>
+        <Text style={styles.text}>2</Text>
+      </View>
+
     </View>
   );
 }
@@ -20,4 +24,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  box:{
+    backgroundColor: 'black',
+
+  },
+  text:{
+    color: 'blue',
+    fontSize:40,
+  }
 });
