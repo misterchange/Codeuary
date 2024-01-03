@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>YO! YO! Wasup!!! NITIN</Text>
+      <Text>UCI(The Unified Charging Interface)</Text>
       <StatusBar style="auto" />
     </View>
   );
