@@ -19,8 +19,6 @@ const styles = StyleSheet.create({
 
     box:{
       backgroundColor: '#F9EDE3',
-      // width: 200,
-      // height:200,
       flex:1,
       aspectRatio:1,
       borderWidth:StyleSheet.hairlineWidth,
@@ -33,6 +31,7 @@ const styles = StyleSheet.create({
     text:{
       color: '#9b4521',
       fontSize:80,
+      fontFamily:'Inter',
     }
   });
   
